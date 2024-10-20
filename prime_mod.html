@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="prime_mod.css">
 </head>
 <body>
-    <div class="container-fluid" id="section-home">
-        <div class="row">
-            <div class="home-page col-12 mb-5 d-none d-sm-block h-100">
+    
+              <div class="fixed-top heading-background">
                 <div class="d-flex flex-row justify-content-center m-3">
                     <img src="https://www.mobilebit.com.br/wp-content/uploads/2020/03/prime-video-novo-recurso.jpg" class="d-none d-lg-block prime-logo" alt="Amazon Prime Logo"/>
                 </div>
@@ -26,22 +25,27 @@
                     <div class="collapse navbar-collapse" id="navbarNav1">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item active">
-                                <a class="nav-link nav-link-active" onclick="display('section-inhome-homepage')">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#sectioninhomehomepage">Home </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="display('section-inhome-tvshows')">TV Shows</a>
+                                <a class="nav-link" href="#sectioninhometvshows">TV Shows</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="display('section-inhome-movies')">Movies</a>
+                                <a class="nav-link" href="#sectioninhomemovies">Movies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="display('section-inhome-kids')">Kids</a>
+                                <a class="nav-link" href="#sectioninhomekids">Kids</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
+              </div> 
+              <div class="container-fluid" id="section-home">
+                <div class="row">
+                    <div class="home-page col-12 mb-5 d-none d-sm-block h-100">           
                 
-                  <div id="section-inhome-homepage">
+                  <div id="sectioninhomehomepage" class="apply-margin">
+                    <h1 class="pages-heading">Home</h1>
                     <div id="carouselExampleIndicators" class="carousel slide mb-3" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -339,10 +343,12 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>   
+                      </div> 
+                      <hr class="text-white">  
                   </div> 
                   
-                  <div id="section-inhome-tvshows">
+                  <div id="sectioninhometvshows">
+                    <h1 class="pages-heading">TV Shows</h1>
                     <div id="carouselExampleIndicators4" class="carousel slide mb-3" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
@@ -640,10 +646,12 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>   
+                      </div>  
+                      <hr class="text-white"> 
                   </div>  
                   
-                  <div id="section-inhome-movies">
+                  <div id="sectioninhomemovies">
+                    <h1 class="pages-heading">Movies</h1>
                     <div id="carouselExampleIndicators8" class="carousel slide mb-3" data-ride="carousel">
                         <ol class="carousel-indicators8">
                           <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
@@ -941,10 +949,12 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>   
+                      </div> 
+                      <hr class="text-white">  
                   </div>
                 
-                  <div id="section-inhome-kids">
+                  <div id="sectioninhomekids">
+                    <h1 class="pages-heading">Kids</h1>
                     <div id="carouselExampleIndicators12" class="carousel slide mb-3" data-ride="carousel">
                         <ol class="carousel-indicators12">
                           <li data-target="#carouselExampleIndicators12" data-slide-to="0" class="active"></li>
@@ -1242,7 +1252,8 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div>   
+                      </div> 
+                      <hr class="text-white">  
                   </div>
 
                 <nav class="navbar navbar-expand-lg fixed-bottom">
@@ -1276,3 +1287,4 @@
     </div>       
 </body>
 </html>
+
